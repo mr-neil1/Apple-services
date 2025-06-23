@@ -7,8 +7,7 @@
   "dev": "vite",
   "build": "vite build",
   "lint": "eslint .",
-  "preview": "vite preview",
-  "start": "vite preview --port $PORT"
+  "start": "vite preview --port $PORT node backend/server.js"
 },
   "dependencies": {
     "@paypal/react-paypal-js": "^8.8.3",
